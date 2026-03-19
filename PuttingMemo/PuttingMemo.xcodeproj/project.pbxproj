@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* PuttingMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100001 /* PuttingMemoApp.swift */; };
+		AA000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100002 /* ContentView.swift */; };
+		AA000003 /* PuttingRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100003 /* PuttingRecord.swift */; };
+		AA000004 /* ApproachRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100004 /* ApproachRecord.swift */; };
+		AA000005 /* PuttingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100005 /* PuttingViewModel.swift */; };
+		AA000006 /* ApproachViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100006 /* ApproachViewModel.swift */; };
+		AA000007 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100007 /* HistoryViewModel.swift */; };
+		AA000008 /* PuttingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100008 /* PuttingListView.swift */; };
+		AA000009 /* PuttingRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100009 /* PuttingRecordView.swift */; };
+		AA000010 /* ApproachListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100010 /* ApproachListView.swift */; };
+		AA000011 /* ApproachRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100011 /* ApproachRecordView.swift */; };
+		AA000012 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100012 /* HistoryView.swift */; };
+		AA000013 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100013 /* StatisticsView.swift */; };
+		AA000014 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100014 /* DataStore.swift */; };
+		AA000015 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100015 /* CSVExporter.swift */; };
+		AA000016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA100016 /* Assets.xcassets */; };
+		AA000017 /* PuttingMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100017 /* PuttingMemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA100001 /* PuttingMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuttingMemoApp.swift; sourceTree = "<group>"; };
+		AA100002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA100003 /* PuttingRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuttingRecord.swift; sourceTree = "<group>"; };
+		AA100004 /* ApproachRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproachRecord.swift; sourceTree = "<group>"; };
+		AA100005 /* PuttingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuttingViewModel.swift; sourceTree = "<group>"; };
+		AA100006 /* ApproachViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproachViewModel.swift; sourceTree = "<group>"; };
+		AA100007 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		AA100008 /* PuttingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuttingListView.swift; sourceTree = "<group>"; };
+		AA100009 /* PuttingRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuttingRecordView.swift; sourceTree = "<group>"; };
+		AA100010 /* ApproachListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproachListView.swift; sourceTree = "<group>"; };
+		AA100011 /* ApproachRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproachRecordView.swift; sourceTree = "<group>"; };
+		AA100012 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		AA100013 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		AA100014 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		AA100015 /* CSVExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVExporter.swift; sourceTree = "<group>"; };
+		AA100016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA100017 /* PuttingMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuttingMemoTests.swift; sourceTree = "<group>"; };
+		AA200001 /* PuttingMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuttingMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA200002 /* PuttingMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuttingMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA300001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA300002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA400000 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				AA400001 /* PuttingMemo */,
+				AA400010 /* PuttingMemoTests */,
+				AA400020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA400001 /* PuttingMemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA100001 /* PuttingMemoApp.swift */,
+				AA100002 /* ContentView.swift */,
+				AA400002 /* Models */,
+				AA400003 /* ViewModels */,
+				AA400004 /* Views */,
+				AA400008 /* Persistence */,
+				AA400009 /* Utilities */,
+				AA100016 /* Assets.xcassets */,
+			);
+			path = PuttingMemo;
+			sourceTree = "<group>";
+		};
+		AA400002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA100003 /* PuttingRecord.swift */,
+				AA100004 /* ApproachRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA400003 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA100005 /* PuttingViewModel.swift */,
+				AA100006 /* ApproachViewModel.swift */,
+				AA100007 /* HistoryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA400004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA400005 /* Putting */,
+				AA400006 /* Approach */,
+				AA400007 /* History */,
+				AA4000071 /* Statistics */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA400005 /* Putting */ = {
+			isa = PBXGroup;
+			children = (
+				AA100008 /* PuttingListView.swift */,
+				AA100009 /* PuttingRecordView.swift */,
+			);
+			path = Putting;
+			sourceTree = "<group>";
+		};
+		AA400006 /* Approach */ = {
+			isa = PBXGroup;
+			children = (
+				AA100010 /* ApproachListView.swift */,
+				AA100011 /* ApproachRecordView.swift */,
+			);
+			path = Approach;
+			sourceTree = "<group>";
+		};
+		AA400007 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				AA100012 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		AA4000071 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				AA100013 /* StatisticsView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		AA400008 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				AA100014 /* DataStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		AA400009 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AA100015 /* CSVExporter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AA400010 /* PuttingMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA100017 /* PuttingMemoTests.swift */,
+			);
+			path = PuttingMemoTests;
+			sourceTree = "<group>";
+		};
+		AA400020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA200001 /* PuttingMemo.app */,
+				AA200002 /* PuttingMemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA500001 /* PuttingMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA700001 /* Build configuration list for PBXNativeTarget "PuttingMemo" */;
+			buildPhases = (
+				AA600001 /* Sources */,
+				AA300001 /* Frameworks */,
+				AA600002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuttingMemo;
+			productName = PuttingMemo;
+			productReference = AA200001 /* PuttingMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA500002 /* PuttingMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA700003 /* Build configuration list for PBXNativeTarget "PuttingMemoTests" */;
+			buildPhases = (
+				AA600003 /* Sources */,
+				AA300002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA800001 /* PBXTargetDependency */,
+			);
+			name = PuttingMemoTests;
+			productName = PuttingMemoTests;
+			productReference = AA200002 /* PuttingMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA500001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					AA500002 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AA500001;
+					};
+				};
+			};
+			buildConfigurationList = AA700000 /* Build configuration list for PBXProject "PuttingMemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				en,
+				Base,
+			);
+			mainGroup = AA400000;
+			productRefGroup = AA400020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA500001 /* PuttingMemo */,
+				AA500002 /* PuttingMemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA600002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000016 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA600001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* PuttingMemoApp.swift in Sources */,
+				AA000002 /* ContentView.swift in Sources */,
+				AA000003 /* PuttingRecord.swift in Sources */,
+				AA000004 /* ApproachRecord.swift in Sources */,
+				AA000005 /* PuttingViewModel.swift in Sources */,
+				AA000006 /* ApproachViewModel.swift in Sources */,
+				AA000007 /* HistoryViewModel.swift in Sources */,
+				AA000008 /* PuttingListView.swift in Sources */,
+				AA000009 /* PuttingRecordView.swift in Sources */,
+				AA000010 /* ApproachListView.swift in Sources */,
+				AA000011 /* ApproachRecordView.swift in Sources */,
+				AA000012 /* HistoryView.swift in Sources */,
+				AA000013 /* StatisticsView.swift in Sources */,
+				AA000014 /* DataStore.swift in Sources */,
+				AA000015 /* CSVExporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA600003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000017 /* PuttingMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA800001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA500001 /* PuttingMemo */;
+			targetProxy = AA800002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+		AA800002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA500001;
+			remoteInfo = PuttingMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+		AA700010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA700011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA700020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshidak1121cmd.putting-memo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA700021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshidak1121cmd.putting-memo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AA700030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshidak1121cmd.putting-memo.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuttingMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PuttingMemo";
+			};
+			name = Debug;
+		};
+		AA700031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoshidak1121cmd.putting-memo.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuttingMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PuttingMemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA700000 /* Build configuration list for PBXProject "PuttingMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA700010 /* Debug */,
+				AA700011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA700001 /* Build configuration list for PBXNativeTarget "PuttingMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA700020 /* Debug */,
+				AA700021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA700003 /* Build configuration list for PBXNativeTarget "PuttingMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA700030 /* Debug */,
+				AA700031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AA000000 /* Project object */;
+}
